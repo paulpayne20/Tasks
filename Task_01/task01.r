@@ -1,4 +1,4 @@
-#intall.packages("swirl")
+intall.packages("swirl")
 
 library(swirl)
 
