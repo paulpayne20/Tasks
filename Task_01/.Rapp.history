@@ -1,4 +1,46 @@
 swirl()
 library(swirl)
 swirl()
+library(swirl)
 swirl()
+#install.packages("swirl")
+library(swirl)
+swirl()
+5 + 7
+x <- 5 + 7
+x
+x - 3
+y <- - 3
+y <- x - 3
+y
+c(1.1, 9, 3.14)
+z(1.1,9,3.14)
+z <- c(1.1,9,3.14)
+?c
+z
+z,555,z
+"z,555,z"
+c(z, 555, z)
+z * 2 + 100
+z - 1
+(z-1)
+info()
+sqrt(z-1)
+my_sqrt(z-1)
+√z-1
+√(z-1)
+my_√
+0.10,8.00,2.14 my_√
+my_√
+my_√(z-1)
+info()
+my_sqrt<-sqrt(z-1)
+print(my_sqrt)
+my_sqrt
+my_div<-z/my_sqrt
+print(my_sqrt)
+my_div
+c(1,2,3,4)+c(0,10)
+c(1,2,3,4) + c(0,10,100)
+z*2+1000
+my_div
