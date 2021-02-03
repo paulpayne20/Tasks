@@ -1,0 +1,55 @@
+install . packages (swirl)#
+library (swirl)
+install.packages("swirl")#
+library(swirl)
+library(swirl)
+55 * 28
+x <- rnorm(10)#
+#
+y <- rnorm(100)#
+#
+hist(y, col='black', main="example")
+library(swirl)#
+#
+x <- rnorm(10)#
+#
+y <- rnorm(100)#
+#
+hist(y, col='black', main="example")
+swirl()
+intall.packages("swirl")#
+library(swirl)
+swirl
+swirl()
+library(swirl)
+swirl()
+setwd()
+setwd(' ')
+setwd('')
+setwd(' ')
+setwd
+setwd()
+getwd()
+setwd()
+getwd()
+setwd("/Users/paul_payne20")
+setwd(~/Desktop/Evolution/Tasks/Task_02)
+set('/Desktop/Evolution/Tasks/Task_02')
+setwd()
+set('')
+getwd()
+setwd()
+getwd()
+setwd(~/Desktop/Evolution/Tasks/Task_02)
+getwd()
+setwd('/Users/paul_payne20/Desktop/Evolution/Tasks/Tasks_02'')
+read.csv('http://jonsmitchell.com/data/beren.csv', stringAsFactors=F)
+setwd('/Users/paul_payne20/Desktop/Evolution/Tasks/Tasks_02'')
+setwd('/Users/paul_payne20/Desktop/Evolution/Tasks/Task_02'')
+read.csv('http://jonsmitchell.com/data/beren.csv', stringsAsFactors=F)
+getwd()
+setwd(Users/paul_payne20")
+getwd()
+setwd('~/Desktop/Evolution/Tasks/Task_02')
+Dats <- read.csv('http://jonsmitchell.com/data/beren.csv', stringsAsFactors=F)
+write.csv(Data, 'rawdata.csv', quote=F)
