@@ -1,7 +1,3 @@
-info()
-lsit.files()
-list.files()
-files.exist("mytest.R")
 files.exists("mytest.R")
 file.exist("mytest.R")
 file.exists("mytest.R")
@@ -24,7 +20,6 @@ nxt()
 dir.create("testdir2/testdir3")
 dir.create(file.path('testdir2', 'testdir3') , recrusive = TRUE)
 dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE)
-unlink('testdir2', recursive = TRUE)
 unlink('testdir2', recursive = TRUE)
 setwd(old.dir)
 1:20
@@ -248,3 +243,8 @@ dim(mtcars)
 ?boxplot
 boxplot(mpg ~ cyl, data = mtcars)
 hist(mtcars$mpg)
+beren4 <- beren3[Naps,]
+beren<- beren3[Naps,]
+beren4<- beren3[Naps,]
+beren4 <- beren3[Naps,]
+beren4<- beren3[Naps,]
