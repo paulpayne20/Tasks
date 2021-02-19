@@ -1,0 +1,62 @@
+
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.73 (7892) x86_64-apple-darwin17.0]
+
+[Workspace restored from /Users/paul_payne20/.RData]
+[History restored from /Users/paul_payne20/.Rapp.history]
+
+2021-02-19 00:02:30.327 R[10892:180405] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x7fca1102dfc0>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-19 00:02:42.143 R[10892:180405] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x7fca15833c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-19 00:02:42.144 R[10892:180405] Warning: Expected min height of view: (<NSButton: 0x7fca0f593cd0>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-19 00:02:42.148 R[10892:180405] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x7fca0f594470>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-19 00:02:42.150 R[10892:180405] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x7fca0f595400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-02-19 00:02:44.105 R[10892:180405] +[NSSavePanel _warmUp] attempted warmup
+> source("http://jonsmitchell.com/code/fxn05.R")
+> Pop1 <- simPop(Popsize = 50, nGenerations = 100, initial_p = 0.5, h = 1, s = 0)
+> plot(1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generations", ylab="allele freq.", lwd = 2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot(1:nrow(Pop1), Pop1 [,1], ylim=c(0,1), type = "1", xlab="generations", ylab="allele freq.", lwd = 2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot(1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd = 2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot(1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd=2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot(1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd = 2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot (1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd = 2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot (1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd=2)
+Error in plot.xy(xy, type, ...) : invalid plot type '1'
+> plot <- (1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "1", xlab="generation", ylab="allele freq.", lwd=2)
+Error: unexpected ',' in "plot <- (1:nrow(Pop1),"
+> plot(1:nrow(Pop1), Pop1[,1], ylim=c(0,1), type = "l", xlab="generation", ylab="allele freq.", lwd=2)
+> lines(1:nrow(Pop1), Pop1[,2], lwd=2, col = 'red')
+> legend("topleft", legend = c("a", "b"), col = c("black", "red"), lwd = 2, bty = "n")
+> plotFit(nruns = 10, n = 50, ngens = 100, init_p = 0.5, h = 1, s = 0)
+> Expectation <- c(10, 10, 10, 10)
+> Observed <- c(15, 15, 5, 5)
+> Chisqs <- sum(((Expectation - Observed) ^ 2)/ Expectation)
+> barplot(rbind(Expecatation, Observed), beside = T, main = bquote(chi ^ 2 ~ "=" ~.(Chisq)), legend.text=c("Expected", "Observed"))
+Error in rbind(Expecatation, Observed) : object 'Expecatation' not found
+> barplot(rbind(Expecatation, Observed), beside = T, main = bquote(chi ^ 2 ~ "=" ~.(Chisq)), legend.text=c("expected", "observed"))
+Error in rbind(Expecatation, Observed) : object 'Expecatation' not found
+> barplot(rbind(Expecatation, Observed), beside = T, main = bquote(chi ^ 2 ~ "=" ~. (Chisq)), legend.text=c("expected", "observed"))
+Error in rbind(Expecatation, Observed) : object 'Expecatation' not found
+> 
